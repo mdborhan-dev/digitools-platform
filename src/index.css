@@ -5,6 +5,10 @@
     dark --prefersdark,
     cupcake;
 }
+/* @theme {
+  --color-primary: #4f39f6;
+  --color-secondary: #9514FA;
+} */
 .btn-primary {
   background: linear-gradient(
     90deg,
