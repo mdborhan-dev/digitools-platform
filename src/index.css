@@ -1,2 +1,27 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes:
+    light --default,
+    dark --prefersdark,
+    cupcake;
+}
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    rgba(79, 57, 246, 1) 0%,
+    rgba(149, 20, 250, 1) 100%
+  );
+  border-color: linear-gradient(
+    90deg,
+    rgba(79, 57, 246, 1) 0%,
+    rgba(149, 20, 250, 1) 100%
+  );
+}
+.btn-primary-outline {
+  background: transparent;
+  border-color: linear-gradient(
+    90deg,
+    rgba(79, 57, 246, 1) 0%,
+    rgba(149, 20, 250, 1) 100%
+  );
+}
