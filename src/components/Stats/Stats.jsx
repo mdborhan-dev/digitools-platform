@@ -2,7 +2,7 @@ const Stats = () => {
   return (
     <div className="bg-[#4f39f6] p-12">
       <div className="container mx-auto">
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly text-white">
           <div className="flex flex-col gap-3 lg:gap-5 text-center items-center justify-center">
             <h1 className="text-2xl lg:text-5xl font-semibold tracking-wide">
               50K+

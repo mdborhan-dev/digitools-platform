@@ -2,6 +2,7 @@ import { ToastContainer } from "react-toastify";
 import Banner from "./components/Banner/Banner";
 import NavBar from "./components/Nav/NavBar";
 import Stats from "./components/Stats/Stats";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <ToastContainer />
       <Banner />
       <Stats />
+      <Footer />
     </>
   );
 }
