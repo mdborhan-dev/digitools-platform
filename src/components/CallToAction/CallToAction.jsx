@@ -1,7 +1,7 @@
 const CallToAction = () => {
   return (
     <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-22">
-      <div className="container mx-auto flex flex-col gap-4 justify-between items-center ">
+      <div className="container mx-auto flex flex-col gap-4 justify-between items-center text-white">
         <div className="text-center space-y-4">
           <h1 className="text-5xl font-bold">
             Ready to Transform Your Workflow?
@@ -16,7 +16,7 @@ const CallToAction = () => {
             <button className="btn bg-white text-[#4f39f6] py-7 rounded-full text-xl border border-white">
               Explore Products
             </button>
-            <button className="btn outline btn-ghost py-7 rounded-full border-0 text-xl">
+            <button className="btn btn-outline btn-ghost py-7 rounded-full text-xl">
               View Pricing
             </button>
           </div>
