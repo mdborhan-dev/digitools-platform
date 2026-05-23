@@ -4,7 +4,7 @@ import rocketImage from "../../assets/rocket.png";
 const HowItWorks = () => {
   return (
     <div className="lg:p-20 p-4">
-      <div className="container mx-auto flex flex-col gap-3">
+      <div className="container mx-auto flex flex-col gap-5">
         <div className="flex flex-col justify-center items-center text-center gap-4">
           <h1 className="lg:text-5xl text-3xl md:text-4xl font-bold">
             Get Started in 3 Steps
