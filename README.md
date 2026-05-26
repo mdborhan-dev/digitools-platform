@@ -40,8 +40,8 @@ This project was built as part of a web development course to practice React fun
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/mdborhan-dev/digitools-platform.git
+cd digitools-platform
 ```
 
 **2. Install dependencies**
